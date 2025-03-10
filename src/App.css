@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.text{
+  width: 80%;
+  margin: 30px 0;
+  line-height: 25px;
+}
+
+.text h1{
+  text-align: center;
+  margin: 20px 0;
+
+}
+

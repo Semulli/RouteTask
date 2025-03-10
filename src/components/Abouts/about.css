@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.aboutTop {
+  width: 80%;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  margin: -10px 10px -10px 0;
+}
+a.active {
+  color: rgb(0, 26, 255);
+}
