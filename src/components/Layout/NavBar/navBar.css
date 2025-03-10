@@ -1,0 +1,37 @@
+.logo {
+  width: 90px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.navBar {
+  background-color: rgb(135, 85, 255);
+  height: 90px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.main a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 16px;
+  font-size: 24px;
+}
+.main a.active {
+  color: aqua;
+  border-bottom: 1px solid aqua;
+}
+
+.main a:hover {
+  color: aqua;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  scale: 1.1;
+}
+

@@ -1,0 +1,43 @@
+.detailPage {
+  flex-direction: column;
+  height: 100%;
+  
+}
+.detail {
+  width: 50%;
+  min-height: 600px;
+  margin: 40px 0 10px 0;
+}
+.imgDiv {
+  height: 400px;
+}
+
+.cardImg2 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.cardBody {
+  background-color: #292929;
+  color: #fff;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBody p {
+  margin: 8px 0px;
+}
+
+.cardBody h5 {
+  margin-top: 5px;
+  font-size: 20px;
+}

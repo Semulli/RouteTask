@@ -1,0 +1,13 @@
+.NotFound {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.notFoundImg {
+  object-fit: cover;
+  height: 45vh;
+  width: 75%;
+  border-radius: 6px;
+}
